@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="30e72dc9-8a79-401f-a9a4-ac99d7f64867" name="nielsobr@USSLCL00134 2012-01-28 00:48:43" runUser="CORP\nielsobr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="eea220ab-40d6-40e9-934b-77bf5a1f08ee">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="nielsobr_USSLCL00134 2012-01-28 00_48_43">
+      <DeploymentItem filename="C:\Programming\AILab\Sudoku\bin\Debug\Sudoku.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-28T00:48:43.7909796-07:00" queuing="2012-01-28T00:48:45.6581663-07:00" start="2012-01-28T00:48:45.7111716-07:00" finish="2012-01-28T00:48:47.1323137-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSudokuCreation" storage="c:\programming\ailab\testsudoku\bin\debug\testsudoku.dll" id="6fac9345-b75b-ddbb-c058-eab1577e0f7e">
+      <Execution id="03862026-071b-4fbe-bff1-df93ab51175b" />
+      <TestMethod codeBase="C:/Programming/AILab/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.TestCreateSudoku, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSudokuCreation" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6fac9345-b75b-ddbb-c058-eab1577e0f7e" executionId="03862026-071b-4fbe-bff1-df93ab51175b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="03862026-071b-4fbe-bff1-df93ab51175b" testId="6fac9345-b75b-ddbb-c058-eab1577e0f7e" testName="TestSudokuCreation" computerName="USSLCL00134" duration="00:00:00.7335018" startTime="2012-01-28T00:48:45.7431748-07:00" endTime="2012-01-28T00:48:47.0593064-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03862026-071b-4fbe-bff1-df93ab51175b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

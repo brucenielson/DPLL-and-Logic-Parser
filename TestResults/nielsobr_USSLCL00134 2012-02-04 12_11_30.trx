@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9ea5e739-59f5-41c2-8415-a601d4920a1d" name="nielsobr@USSLCL00134 2012-02-04 12:11:30" runUser="CORP\nielsobr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="eea220ab-40d6-40e9-934b-77bf5a1f08ee">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="nielsobr_USSLCL00134 2012-02-04 12_11_30">
+      <DeploymentItem filename="C:\Programming\AILab\AILab\bin\Debug\AILab.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-04T12:11:30.0086106-07:00" queuing="2012-02-04T12:11:32.5207543-07:00" start="2012-02-04T12:11:32.6447614-07:00" finish="2012-02-04T12:11:57.1081606-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="50" executed="7" passed="6" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="43" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="USSLCL00134" outcome="Error" timestamp="2012-02-04T12:11:57.1031603-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="923e8cdc-0dc0-79e0-35ff-5f7ec00fce3a">
+      <Execution id="819e9dc8-52f3-4943-80e7-224ffce23517" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTest" />
+    </UnitTest>
+    <UnitTest name="TestParseInput" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="be9f5475-6ae9-73b7-ff07-b775c606366b">
+      <Execution id="c021e2f6-5a75-41bf-a9ab-cdb13c3cc5ba" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestParser, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParseInput" />
+    </UnitTest>
+    <UnitTest name="TestAndEvaluateSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="5d44c2e5-51f8-97f9-d261-f09b2a28ce05">
+      <Execution id="170704d1-7740-44c2-8a36-d09ae1faef08" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAndEvaluateSentence" />
+    </UnitTest>
+    <UnitTest name="TestPLLexerFunctionsWithWhitespace" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="5a1f7c77-12fd-ad90-c7ea-ff16280c04e6">
+      <Execution id="02983c78-df25-4cc0-9fcb-f2c447554c16" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPLLexer.TestPLLexer, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPLLexerFunctionsWithWhitespace" />
+    </UnitTest>
+    <UnitTest name="TestPLLexerFunctions" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="af5010a3-6e62-b773-ff65-ada30469ea46">
+      <Execution id="be4da72b-972c-43c4-b9b3-f970a9543aad" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPLLexer.TestPLLexer, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPLLexerFunctions" />
+    </UnitTest>
+    <UnitTest name="TestPLLexerFunctionsNoSpaces" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="49480745-0a07-b2ec-da3f-e9942cafe705">
+      <Execution id="efbbc6da-f1a9-46cf-97d1-fda1af6252c4" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPLLexer.TestPLLexer, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPLLexerFunctionsNoSpaces" />
+    </UnitTest>
+    <UnitTest name="TestNotParsing" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="8d71a132-cd03-e79a-38f0-b0bbeefc712a">
+      <Execution id="fb881a3c-ad36-4ba3-bd7e-d9c1b4c665e7" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestParser, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNotParsing" />
+    </UnitTest>
+    <UnitTest name="TestPLLexerSyntaxError" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="cb3b3cea-b952-28a3-6bc6-fdc956daf804">
+      <Execution id="cc741625-e933-47b3-9fcf-f07a1ddaecb7" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPLLexer.TestPLLexer, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPLLexerSyntaxError" />
+    </UnitTest>
+    <UnitTest name="EvaluateKnowledgeBaseTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="1bf68376-f5e7-f901-a9e5-1673a4bf90a5">
+      <Execution id="6b6d3d20-faf8-485a-a2b4-0b01d53167aa" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EvaluateKnowledgeBaseTest" />
+    </UnitTest>
+    <UnitTest name="TestPLLexerParentheses" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="fd511c83-30c9-d101-ff87-5d998a68f25e">
+      <Execution id="501d58a4-7c5d-4aae-87fb-ef1bd4ef5851" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPLLexer.TestPLLexer, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPLLexerParentheses" />
+    </UnitTest>
+    <UnitTest name="TestAndParsing" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="74150198-5f32-0f26-57b9-3d4b1fd4e03a">
+      <Execution id="08ea923b-620e-465d-bf7f-62af5c7e76fa" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestParser, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAndParsing" />
+    </UnitTest>
+    <UnitTest name="RemoveSymbolTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="7368b194-8d9c-1ffb-d0ae-b8a387192783">
+      <Execution id="3f1ad5df-b914-4b29-9f22-aad2e2d9908e" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestSymbolList, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveSymbolTest" />
+    </UnitTest>
+    <UnitTest name="TestSentenceStringCreation" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="40e52818-e7ae-2313-c96b-fc5b39a742b1">
+      <Execution id="39889a94-04d3-4995-9eb2-956aa7f3a0fd" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSentenceStringCreation" />
+    </UnitTest>
+    <UnitTest name="TestBasicSymbolTableFunctions" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="8fc7c417-4f8b-b80f-2546-c85a25b804ca">
+      <Execution id="62b8141c-2822-4798-b9c2-d93f1576ff49" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestTokenTable, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBasicSymbolTableFunctions" />
+    </UnitTest>
+    <UnitTest name="AddSymbolListTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="789ab22e-ddf5-958c-9967-b5ce91dbb6ed">
+      <Execution id="afe1cfe1-0020-469c-beb9-24aaaf0f222e" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestSymbolList, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddSymbolListTest" />
+    </UnitTest>
+    <UnitTest name="TestNegatedSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="41caac47-3575-5251-4b96-2032e5cd318c">
+      <Execution id="47700ea6-3fbd-425c-a847-edfff365e679" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNegatedSentence" />
+    </UnitTest>
+    <UnitTest name="TestTokenMatchName" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="2de2d31f-7556-16a7-80e3-9939035b386a">
+      <Execution id="859e18d6-edcc-4c1e-ba36-14835a0eff9f" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestToken, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTokenMatchName" />
+    </UnitTest>
+    <UnitTest name="TestAtomicSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="e6adb3ee-9588-0931-b64f-d0b27689362a">
+      <Execution id="bf56f439-0a13-4a80-b170-0572f20d5679" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAtomicSentence" />
+    </UnitTest>
+    <UnitTest name="IsTrueAndSetValueTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="f1a41d1f-aa88-1508-d850-25f5217ecca9">
+      <Execution id="e4ef2110-f1c3-489b-ab22-1b43a7134a02" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestSymbolList, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsTrueAndSetValueTest" />
+    </UnitTest>
+    <UnitTest name="TestEvaluateSentenceUndefined" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="66f4e4cf-c578-2bd4-dd5a-c87171e27e1e">
+      <Execution id="c5fbc544-6d1c-4bd1-8348-e289aea89ca0" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEvaluateSentenceUndefined" />
+    </UnitTest>
+    <UnitTest name="AddArrayTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="9c860f14-a5e6-df1b-1cd4-c6b8244de350">
+      <Execution id="496de4ea-0303-4e1d-a032-1463a11cd202" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddArrayTest" />
+    </UnitTest>
+    <UnitTest name="TestAreEquivalent" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="a37a4ba7-eba7-1fee-27bd-2779e3902376">
+      <Execution id="7e6c1ead-6ec8-49cf-9c86-dd82e956c034" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAreEquivalent" />
+    </UnitTest>
+    <UnitTest name="TestOrEvaluateSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="adaf4d18-e90d-d090-40e1-d5fb02f26386">
+      <Execution id="19dabbb2-ea7d-4913-97b2-e523291e6ca0" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOrEvaluateSentence" />
+    </UnitTest>
+    <UnitTest name="TestTokenEquals" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="8e6d2178-7d0f-8920-a9c8-1e3302a119e6">
+      <Execution id="9502be8e-84c8-46ff-a856-9234f97971ff" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestToken, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTokenEquals" />
+    </UnitTest>
+    <UnitTest name="TestComplexSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="d22cc538-78fa-3217-c452-9b72ed2437d3">
+      <Execution id="4958c69c-c274-4cfc-9d33-100e9a204424" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestComplexSentence" />
+    </UnitTest>
+    <UnitTest name="QuickSortTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="77e3f6be-4266-e6c6-1703-475c6be61150">
+      <Execution id="e05ce2ad-35f8-426a-97b2-cfd6089948c9" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestSymbolList, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuickSortTest" />
+    </UnitTest>
+    <UnitTest name="ConvertTokenTypeToStringTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="5147a972-eb0f-a47c-9b7a-f8b7b0397fc8">
+      <Execution id="a45faa29-5fdd-4799-87de-025f3795fedb" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLToken, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertTokenTypeToStringTest" />
+    </UnitTest>
+    <UnitTest name="TestNotNegatedSentences" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="2b5c0f6c-ac88-8091-75af-f8adec8cae39">
+      <Execution id="d1042078-8103-48c0-b934-bddb9cbfc09a" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNotNegatedSentences" />
+    </UnitTest>
+    <UnitTest name="TestTokenCreation" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="c0bcf6be-fcb1-0241-5609-62ecd85d53c0">
+      <Execution id="d4dd23c3-7b88-4318-b2a7-e547a82dd882" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestToken, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTokenCreation" />
+    </UnitTest>
+    <UnitTest name="TestAndOrParsing" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="bec15edf-99e3-9e5b-8ba0-4d1f21b95546">
+      <Execution id="0c1706cc-bd6a-4d57-80c2-ec3aa23ac72a" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestParser, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAndOrParsing" />
+    </UnitTest>
+    <UnitTest name="TestClone" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="d7acaa0d-fe7c-5de4-0948-eebac53967bf">
+      <Execution id="93239fee-176d-4860-9572-5b4d475c09d0" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestClone" />
+    </UnitTest>
+    <UnitTest name="TestDPLLSatisfiability" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="6ee7b97a-a9ad-46c9-a907-11730bffc395">
+      <Execution id="eba225bc-4b75-4226-a0b0-6ec6a563ae35" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDPLLSatisfiability" />
+    </UnitTest>
+    <UnitTest name="GetValueTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="654c59a7-8329-91fa-88d5-cc75d1929012">
+      <Execution id="cf4895c6-c06d-4478-ab4c-715c415724a3" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestSymbolList, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetValueTest" />
+    </UnitTest>
+    <UnitTest name="DPLLEntailsTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="db510755-a10e-2806-f73e-659e78209c64">
+      <Execution id="21740ae4-df52-4c9e-b6b4-aae02ed8d3b1" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DPLLEntailsTest" />
+    </UnitTest>
+    <UnitTest name="CloneTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="2aad729b-0f58-6e49-72b2-7a657b368afa">
+      <Execution id="01b92b97-4d53-4a46-9208-8c57c6a81476" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestSymbolList, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CloneTest" />
+    </UnitTest>
+    <UnitTest name="TruthTableEntailsTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="e0051cf6-396a-d76f-98a3-38f5c8418d25">
+      <Execution id="06a915ac-7608-4dba-8cf6-d1e73605d3d8" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TruthTableEntailsTest" />
+    </UnitTest>
+    <UnitTest name="TestOrParsing" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="713db768-32ed-ca6a-1be8-7863252fa671">
+      <Execution id="40965550-de25-4c22-922a-00716b982d88" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestParser, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOrParsing" />
+    </UnitTest>
+    <UnitTest name="TestClone" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="8a25d26e-5280-d8aa-6f18-7f957f2ab71c">
+      <Execution id="06896b33-c2f5-4fe7-93b3-5a8e844cab62" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestClone" />
+    </UnitTest>
+    <UnitTest name="TestBasicEvaluateSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="a1d55f73-f594-c2cb-c34f-9c3fba3b65bd">
+      <Execution id="e21ddb1d-0c67-4dee-9352-67baea6dacad" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBasicEvaluateSentence" />
+    </UnitTest>
+    <UnitTest name="TestToReadableString" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="f8066f99-2db1-e9eb-981b-f8a2819a17df">
+      <Execution id="45972e49-f051-45e8-bdd5-9de37cbbc97b" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestToReadableString" />
+    </UnitTest>
+    <UnitTest name="ConvertToCNFTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="e60a1f43-1179-0ec4-5841-e28b2b521936">
+      <Execution id="09199958-2773-45c1-b5cd-6a96acb92e28" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertToCNFTest" />
+    </UnitTest>
+    <UnitTest name="TestConvertToCNF" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="3a8d2e06-c5f9-8c8a-8960-014186b38c77">
+      <Execution id="fc9080f5-c76a-4e5a-91a1-37c59d8ae7fa" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConvertToCNF" />
+    </UnitTest>
+    <UnitTest name="ExistsTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="50bb9a75-f18d-73fe-a1e6-f80b495c376a">
+      <Execution id="252dc2d4-fc8c-450e-813f-b065a254ad25" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestPLKnowledgeBase, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExistsTest" />
+    </UnitTest>
+    <UnitTest name="AddSymbolTest" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="00f90f10-1397-c0fd-c783-3a0890bd67f0">
+      <Execution id="4befc49d-f5f5-4cb7-9af6-f2570144633a" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestSymbolList, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddSymbolTest" />
+    </UnitTest>
+    <UnitTest name="TestThrowParsingError" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="6c682e1f-3c6c-0dd8-c674-b3710a702e4d">
+      <Execution id="3e79d606-deee-4249-b15a-1637c5f73a19" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPLLexer.TestPLLexer, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestThrowParsingError" />
+    </UnitTest>
+    <UnitTest name="TestRandomParsing" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="f6fc3cce-42f8-83d2-0192-80b5f6e78a83">
+      <Execution id="de15dab4-0423-4a95-a310-3196b8db21e4" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestParser, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRandomParsing" />
+    </UnitTest>
+    <UnitTest name="TestBiconditionalEvaluateSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="c90de46f-fe27-6a24-ed05-13c24862708e">
+      <Execution id="4b20b15b-e454-424c-8e5e-e46551d5ccd1" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBiconditionalEvaluateSentence" />
+    </UnitTest>
+    <UnitTest name="TestImpliesEvaluateSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="ed84c47d-a8d4-111c-e4fb-6ebe035099f5">
+      <Execution id="522b3f7f-2010-43e5-a422-098f79a10a99" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestImpliesEvaluateSentence" />
+    </UnitTest>
+    <UnitTest name="TestParenParsing" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="d1f420ed-9567-923a-8753-f8618a6b24fd">
+      <Execution id="b0558f94-4e4e-4548-afdc-cfe07b737dc5" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAILab.TestParser, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParenParsing" />
+    </UnitTest>
+    <UnitTest name="TestGetSymbolListSentence" storage="c:\programming\ailab\testailab\bin\debug\testailab.dll" id="86fba780-2e60-0ef8-1eb5-3ee200131357">
+      <Execution id="94a8a75b-3ff4-422d-afc0-ed71c81d1449" />
+      <TestMethod codeBase="C:/Programming/AILab/TestAILab/bin/Debug/TestAILab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSentences.TestSentence, TestAILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetSymbolListSentence" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f6fc3cce-42f8-83d2-0192-80b5f6e78a83" executionId="de15dab4-0423-4a95-a310-3196b8db21e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74150198-5f32-0f26-57b9-3d4b1fd4e03a" executionId="08ea923b-620e-465d-bf7f-62af5c7e76fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="713db768-32ed-ca6a-1be8-7863252fa671" executionId="40965550-de25-4c22-922a-00716b982d88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d71a132-cd03-e79a-38f0-b0bbeefc712a" executionId="fb881a3c-ad36-4ba3-bd7e-d9c1b4c665e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bec15edf-99e3-9e5b-8ba0-4d1f21b95546" executionId="0c1706cc-bd6a-4d57-80c2-ec3aa23ac72a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1f420ed-9567-923a-8753-f8618a6b24fd" executionId="b0558f94-4e4e-4548-afdc-cfe07b737dc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be9f5475-6ae9-73b7-ff07-b775c606366b" executionId="c021e2f6-5a75-41bf-a9ab-cdb13c3cc5ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="923e8cdc-0dc0-79e0-35ff-5f7ec00fce3a" executionId="819e9dc8-52f3-4943-80e7-224ffce23517" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c860f14-a5e6-df1b-1cd4-c6b8244de350" executionId="496de4ea-0303-4e1d-a032-1463a11cd202" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50bb9a75-f18d-73fe-a1e6-f80b495c376a" executionId="252dc2d4-fc8c-450e-813f-b065a254ad25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bf68376-f5e7-f901-a9e5-1673a4bf90a5" executionId="6b6d3d20-faf8-485a-a2b4-0b01d53167aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0051cf6-396a-d76f-98a3-38f5c8418d25" executionId="06a915ac-7608-4dba-8cf6-d1e73605d3d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e60a1f43-1179-0ec4-5841-e28b2b521936" executionId="09199958-2773-45c1-b5cd-6a96acb92e28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db510755-a10e-2806-f73e-659e78209c64" executionId="21740ae4-df52-4c9e-b6b4-aae02ed8d3b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ee7b97a-a9ad-46c9-a907-11730bffc395" executionId="eba225bc-4b75-4226-a0b0-6ec6a563ae35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7acaa0d-fe7c-5de4-0948-eebac53967bf" executionId="93239fee-176d-4860-9572-5b4d475c09d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fc7c417-4f8b-b80f-2546-c85a25b804ca" executionId="62b8141c-2822-4798-b9c2-d93f1576ff49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af5010a3-6e62-b773-ff65-ada30469ea46" executionId="be4da72b-972c-43c4-b9b3-f970a9543aad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49480745-0a07-b2ec-da3f-e9942cafe705" executionId="efbbc6da-f1a9-46cf-97d1-fda1af6252c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a1f7c77-12fd-ad90-c7ea-ff16280c04e6" executionId="02983c78-df25-4cc0-9fcb-f2c447554c16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb3b3cea-b952-28a3-6bc6-fdc956daf804" executionId="cc741625-e933-47b3-9fcf-f07a1ddaecb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd511c83-30c9-d101-ff87-5d998a68f25e" executionId="501d58a4-7c5d-4aae-87fb-ef1bd4ef5851" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c682e1f-3c6c-0dd8-c674-b3710a702e4d" executionId="3e79d606-deee-4249-b15a-1637c5f73a19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0bcf6be-fcb1-0241-5609-62ecd85d53c0" executionId="d4dd23c3-7b88-4318-b2a7-e547a82dd882" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2de2d31f-7556-16a7-80e3-9939035b386a" executionId="859e18d6-edcc-4c1e-ba36-14835a0eff9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e6d2178-7d0f-8920-a9c8-1e3302a119e6" executionId="9502be8e-84c8-46ff-a856-9234f97971ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5147a972-eb0f-a47c-9b7a-f8b7b0397fc8" executionId="a45faa29-5fdd-4799-87de-025f3795fedb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00f90f10-1397-c0fd-c783-3a0890bd67f0" executionId="4befc49d-f5f5-4cb7-9af6-f2570144633a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7368b194-8d9c-1ffb-d0ae-b8a387192783" executionId="3f1ad5df-b914-4b29-9f22-aad2e2d9908e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1a41d1f-aa88-1508-d850-25f5217ecca9" executionId="e4ef2110-f1c3-489b-ab22-1b43a7134a02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="654c59a7-8329-91fa-88d5-cc75d1929012" executionId="cf4895c6-c06d-4478-ab4c-715c415724a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77e3f6be-4266-e6c6-1703-475c6be61150" executionId="e05ce2ad-35f8-426a-97b2-cfd6089948c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="789ab22e-ddf5-958c-9967-b5ce91dbb6ed" executionId="afe1cfe1-0020-469c-beb9-24aaaf0f222e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aad729b-0f58-6e49-72b2-7a657b368afa" executionId="01b92b97-4d53-4a46-9208-8c57c6a81476" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6adb3ee-9588-0931-b64f-d0b27689362a" executionId="bf56f439-0a13-4a80-b170-0572f20d5679" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41caac47-3575-5251-4b96-2032e5cd318c" executionId="47700ea6-3fbd-425c-a847-edfff365e679" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b5c0f6c-ac88-8091-75af-f8adec8cae39" executionId="d1042078-8103-48c0-b934-bddb9cbfc09a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d22cc538-78fa-3217-c452-9b72ed2437d3" executionId="4958c69c-c274-4cfc-9d33-100e9a204424" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86fba780-2e60-0ef8-1eb5-3ee200131357" executionId="94a8a75b-3ff4-422d-afc0-ed71c81d1449" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40e52818-e7ae-2313-c96b-fc5b39a742b1" executionId="39889a94-04d3-4995-9eb2-956aa7f3a0fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1d55f73-f594-c2cb-c34f-9c3fba3b65bd" executionId="e21ddb1d-0c67-4dee-9352-67baea6dacad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d44c2e5-51f8-97f9-d261-f09b2a28ce05" executionId="170704d1-7740-44c2-8a36-d09ae1faef08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adaf4d18-e90d-d090-40e1-d5fb02f26386" executionId="19dabbb2-ea7d-4913-97b2-e523291e6ca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed84c47d-a8d4-111c-e4fb-6ebe035099f5" executionId="522b3f7f-2010-43e5-a422-098f79a10a99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c90de46f-fe27-6a24-ed05-13c24862708e" executionId="4b20b15b-e454-424c-8e5e-e46551d5ccd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a37a4ba7-eba7-1fee-27bd-2779e3902376" executionId="7e6c1ead-6ec8-49cf-9c86-dd82e956c034" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66f4e4cf-c578-2bd4-dd5a-c87171e27e1e" executionId="c5fbc544-6d1c-4bd1-8348-e289aea89ca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a25d26e-5280-d8aa-6f18-7f957f2ab71c" executionId="06896b33-c2f5-4fe7-93b3-5a8e844cab62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a8d2e06-c5f9-8c8a-8960-014186b38c77" executionId="fc9080f5-c76a-4e5a-91a1-37c59d8ae7fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8066f99-2db1-e9eb-981b-f8a2819a17df" executionId="45972e49-f051-45e8-bdd5-9de37cbbc97b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="de15dab4-0423-4a95-a310-3196b8db21e4" testId="f6fc3cce-42f8-83d2-0192-80b5f6e78a83" testName="TestRandomParsing" computerName="USSLCL00134" duration="00:00:00.1713500" startTime="2012-02-04T12:11:32.7647682-07:00" endTime="2012-02-04T12:11:33.5268118-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de15dab4-0423-4a95-a310-3196b8db21e4">
+    </UnitTestResult>
+    <UnitTestResult executionId="08ea923b-620e-465d-bf7f-62af5c7e76fa" testId="74150198-5f32-0f26-57b9-3d4b1fd4e03a" testName="TestAndParsing" computerName="USSLCL00134" duration="00:00:00.0014562" startTime="2012-02-04T12:11:33.5368124-07:00" endTime="2012-02-04T12:11:33.5528133-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08ea923b-620e-465d-bf7f-62af5c7e76fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="40965550-de25-4c22-922a-00716b982d88" testId="713db768-32ed-ca6a-1be8-7863252fa671" testName="TestOrParsing" computerName="USSLCL00134" duration="00:00:00.0010078" startTime="2012-02-04T12:11:33.5588136-07:00" endTime="2012-02-04T12:11:33.5698143-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40965550-de25-4c22-922a-00716b982d88">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb881a3c-ad36-4ba3-bd7e-d9c1b4c665e7" testId="8d71a132-cd03-e79a-38f0-b0bbeefc712a" testName="TestNotParsing" computerName="USSLCL00134" duration="00:00:00.0004815" startTime="2012-02-04T12:11:33.5758146-07:00" endTime="2012-02-04T12:11:33.5858152-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb881a3c-ad36-4ba3-bd7e-d9c1b4c665e7">
+    </UnitTestResult>
+    <UnitTestResult executionId="0c1706cc-bd6a-4d57-80c2-ec3aa23ac72a" testId="bec15edf-99e3-9e5b-8ba0-4d1f21b95546" testName="TestAndOrParsing" computerName="USSLCL00134" duration="00:00:00.0008303" startTime="2012-02-04T12:11:33.5908155-07:00" endTime="2012-02-04T12:11:33.6008160-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c1706cc-bd6a-4d57-80c2-ec3aa23ac72a">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0558f94-4e4e-4548-afdc-cfe07b737dc5" testId="d1f420ed-9567-923a-8753-f8618a6b24fd" testName="TestParenParsing" computerName="USSLCL00134" duration="00:00:00.0008418" startTime="2012-02-04T12:11:33.6068164-07:00" endTime="2012-02-04T12:11:33.6168170-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0558f94-4e4e-4548-afdc-cfe07b737dc5">
+    </UnitTestResult>
+    <UnitTestResult executionId="c021e2f6-5a75-41bf-a9ab-cdb13c3cc5ba" testId="be9f5475-6ae9-73b7-ff07-b775c606366b" testName="TestParseInput" computerName="USSLCL00134" duration="00:00:23.4823432" startTime="2012-02-04T12:11:33.6218172-07:00" endTime="2012-02-04T12:11:57.1041604-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c021e2f6-5a75-41bf-a9ab-cdb13c3cc5ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="819e9dc8-52f3-4943-80e7-224ffce23517" testId="923e8cdc-0dc0-79e0-35ff-5f7ec00fce3a" testName="AddTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="819e9dc8-52f3-4943-80e7-224ffce23517">
+    </UnitTestResult>
+    <UnitTestResult executionId="496de4ea-0303-4e1d-a032-1463a11cd202" testId="9c860f14-a5e6-df1b-1cd4-c6b8244de350" testName="AddArrayTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="496de4ea-0303-4e1d-a032-1463a11cd202">
+    </UnitTestResult>
+    <UnitTestResult executionId="252dc2d4-fc8c-450e-813f-b065a254ad25" testId="50bb9a75-f18d-73fe-a1e6-f80b495c376a" testName="ExistsTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="252dc2d4-fc8c-450e-813f-b065a254ad25">
+    </UnitTestResult>
+    <UnitTestResult executionId="6b6d3d20-faf8-485a-a2b4-0b01d53167aa" testId="1bf68376-f5e7-f901-a9e5-1673a4bf90a5" testName="EvaluateKnowledgeBaseTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b6d3d20-faf8-485a-a2b4-0b01d53167aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="06a915ac-7608-4dba-8cf6-d1e73605d3d8" testId="e0051cf6-396a-d76f-98a3-38f5c8418d25" testName="TruthTableEntailsTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06a915ac-7608-4dba-8cf6-d1e73605d3d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="09199958-2773-45c1-b5cd-6a96acb92e28" testId="e60a1f43-1179-0ec4-5841-e28b2b521936" testName="ConvertToCNFTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09199958-2773-45c1-b5cd-6a96acb92e28">
+    </UnitTestResult>
+    <UnitTestResult executionId="21740ae4-df52-4c9e-b6b4-aae02ed8d3b1" testId="db510755-a10e-2806-f73e-659e78209c64" testName="DPLLEntailsTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21740ae4-df52-4c9e-b6b4-aae02ed8d3b1">
+    </UnitTestResult>
+    <UnitTestResult executionId="eba225bc-4b75-4226-a0b0-6ec6a563ae35" testId="6ee7b97a-a9ad-46c9-a907-11730bffc395" testName="TestDPLLSatisfiability" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eba225bc-4b75-4226-a0b0-6ec6a563ae35">
+    </UnitTestResult>
+    <UnitTestResult executionId="93239fee-176d-4860-9572-5b4d475c09d0" testId="d7acaa0d-fe7c-5de4-0948-eebac53967bf" testName="TestClone" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93239fee-176d-4860-9572-5b4d475c09d0">
+    </UnitTestResult>
+    <UnitTestResult executionId="62b8141c-2822-4798-b9c2-d93f1576ff49" testId="8fc7c417-4f8b-b80f-2546-c85a25b804ca" testName="TestBasicSymbolTableFunctions" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62b8141c-2822-4798-b9c2-d93f1576ff49">
+    </UnitTestResult>
+    <UnitTestResult executionId="be4da72b-972c-43c4-b9b3-f970a9543aad" testId="af5010a3-6e62-b773-ff65-ada30469ea46" testName="TestPLLexerFunctions" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be4da72b-972c-43c4-b9b3-f970a9543aad">
+    </UnitTestResult>
+    <UnitTestResult executionId="efbbc6da-f1a9-46cf-97d1-fda1af6252c4" testId="49480745-0a07-b2ec-da3f-e9942cafe705" testName="TestPLLexerFunctionsNoSpaces" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efbbc6da-f1a9-46cf-97d1-fda1af6252c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="02983c78-df25-4cc0-9fcb-f2c447554c16" testId="5a1f7c77-12fd-ad90-c7ea-ff16280c04e6" testName="TestPLLexerFunctionsWithWhitespace" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02983c78-df25-4cc0-9fcb-f2c447554c16">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc741625-e933-47b3-9fcf-f07a1ddaecb7" testId="cb3b3cea-b952-28a3-6bc6-fdc956daf804" testName="TestPLLexerSyntaxError" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc741625-e933-47b3-9fcf-f07a1ddaecb7">
+    </UnitTestResult>
+    <UnitTestResult executionId="501d58a4-7c5d-4aae-87fb-ef1bd4ef5851" testId="fd511c83-30c9-d101-ff87-5d998a68f25e" testName="TestPLLexerParentheses" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="501d58a4-7c5d-4aae-87fb-ef1bd4ef5851">
+    </UnitTestResult>
+    <UnitTestResult executionId="3e79d606-deee-4249-b15a-1637c5f73a19" testId="6c682e1f-3c6c-0dd8-c674-b3710a702e4d" testName="TestThrowParsingError" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e79d606-deee-4249-b15a-1637c5f73a19">
+    </UnitTestResult>
+    <UnitTestResult executionId="d4dd23c3-7b88-4318-b2a7-e547a82dd882" testId="c0bcf6be-fcb1-0241-5609-62ecd85d53c0" testName="TestTokenCreation" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4dd23c3-7b88-4318-b2a7-e547a82dd882">
+    </UnitTestResult>
+    <UnitTestResult executionId="859e18d6-edcc-4c1e-ba36-14835a0eff9f" testId="2de2d31f-7556-16a7-80e3-9939035b386a" testName="TestTokenMatchName" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="859e18d6-edcc-4c1e-ba36-14835a0eff9f">
+    </UnitTestResult>
+    <UnitTestResult executionId="9502be8e-84c8-46ff-a856-9234f97971ff" testId="8e6d2178-7d0f-8920-a9c8-1e3302a119e6" testName="TestTokenEquals" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9502be8e-84c8-46ff-a856-9234f97971ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="a45faa29-5fdd-4799-87de-025f3795fedb" testId="5147a972-eb0f-a47c-9b7a-f8b7b0397fc8" testName="ConvertTokenTypeToStringTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a45faa29-5fdd-4799-87de-025f3795fedb">
+    </UnitTestResult>
+    <UnitTestResult executionId="4befc49d-f5f5-4cb7-9af6-f2570144633a" testId="00f90f10-1397-c0fd-c783-3a0890bd67f0" testName="AddSymbolTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4befc49d-f5f5-4cb7-9af6-f2570144633a">
+    </UnitTestResult>
+    <UnitTestResult executionId="3f1ad5df-b914-4b29-9f22-aad2e2d9908e" testId="7368b194-8d9c-1ffb-d0ae-b8a387192783" testName="RemoveSymbolTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f1ad5df-b914-4b29-9f22-aad2e2d9908e">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4ef2110-f1c3-489b-ab22-1b43a7134a02" testId="f1a41d1f-aa88-1508-d850-25f5217ecca9" testName="IsTrueAndSetValueTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4ef2110-f1c3-489b-ab22-1b43a7134a02">
+    </UnitTestResult>
+    <UnitTestResult executionId="cf4895c6-c06d-4478-ab4c-715c415724a3" testId="654c59a7-8329-91fa-88d5-cc75d1929012" testName="GetValueTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf4895c6-c06d-4478-ab4c-715c415724a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="e05ce2ad-35f8-426a-97b2-cfd6089948c9" testId="77e3f6be-4266-e6c6-1703-475c6be61150" testName="QuickSortTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e05ce2ad-35f8-426a-97b2-cfd6089948c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="afe1cfe1-0020-469c-beb9-24aaaf0f222e" testId="789ab22e-ddf5-958c-9967-b5ce91dbb6ed" testName="AddSymbolListTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afe1cfe1-0020-469c-beb9-24aaaf0f222e">
+    </UnitTestResult>
+    <UnitTestResult executionId="01b92b97-4d53-4a46-9208-8c57c6a81476" testId="2aad729b-0f58-6e49-72b2-7a657b368afa" testName="CloneTest" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01b92b97-4d53-4a46-9208-8c57c6a81476">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf56f439-0a13-4a80-b170-0572f20d5679" testId="e6adb3ee-9588-0931-b64f-d0b27689362a" testName="TestAtomicSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf56f439-0a13-4a80-b170-0572f20d5679">
+    </UnitTestResult>
+    <UnitTestResult executionId="47700ea6-3fbd-425c-a847-edfff365e679" testId="41caac47-3575-5251-4b96-2032e5cd318c" testName="TestNegatedSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47700ea6-3fbd-425c-a847-edfff365e679">
+    </UnitTestResult>
+    <UnitTestResult executionId="d1042078-8103-48c0-b934-bddb9cbfc09a" testId="2b5c0f6c-ac88-8091-75af-f8adec8cae39" testName="TestNotNegatedSentences" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1042078-8103-48c0-b934-bddb9cbfc09a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4958c69c-c274-4cfc-9d33-100e9a204424" testId="d22cc538-78fa-3217-c452-9b72ed2437d3" testName="TestComplexSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4958c69c-c274-4cfc-9d33-100e9a204424">
+    </UnitTestResult>
+    <UnitTestResult executionId="94a8a75b-3ff4-422d-afc0-ed71c81d1449" testId="86fba780-2e60-0ef8-1eb5-3ee200131357" testName="TestGetSymbolListSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94a8a75b-3ff4-422d-afc0-ed71c81d1449">
+    </UnitTestResult>
+    <UnitTestResult executionId="39889a94-04d3-4995-9eb2-956aa7f3a0fd" testId="40e52818-e7ae-2313-c96b-fc5b39a742b1" testName="TestSentenceStringCreation" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39889a94-04d3-4995-9eb2-956aa7f3a0fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="e21ddb1d-0c67-4dee-9352-67baea6dacad" testId="a1d55f73-f594-c2cb-c34f-9c3fba3b65bd" testName="TestBasicEvaluateSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e21ddb1d-0c67-4dee-9352-67baea6dacad">
+    </UnitTestResult>
+    <UnitTestResult executionId="170704d1-7740-44c2-8a36-d09ae1faef08" testId="5d44c2e5-51f8-97f9-d261-f09b2a28ce05" testName="TestAndEvaluateSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="170704d1-7740-44c2-8a36-d09ae1faef08">
+    </UnitTestResult>
+    <UnitTestResult executionId="19dabbb2-ea7d-4913-97b2-e523291e6ca0" testId="adaf4d18-e90d-d090-40e1-d5fb02f26386" testName="TestOrEvaluateSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19dabbb2-ea7d-4913-97b2-e523291e6ca0">
+    </UnitTestResult>
+    <UnitTestResult executionId="522b3f7f-2010-43e5-a422-098f79a10a99" testId="ed84c47d-a8d4-111c-e4fb-6ebe035099f5" testName="TestImpliesEvaluateSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="522b3f7f-2010-43e5-a422-098f79a10a99">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b20b15b-e454-424c-8e5e-e46551d5ccd1" testId="c90de46f-fe27-6a24-ed05-13c24862708e" testName="TestBiconditionalEvaluateSentence" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b20b15b-e454-424c-8e5e-e46551d5ccd1">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e6c1ead-6ec8-49cf-9c86-dd82e956c034" testId="a37a4ba7-eba7-1fee-27bd-2779e3902376" testName="TestAreEquivalent" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e6c1ead-6ec8-49cf-9c86-dd82e956c034">
+    </UnitTestResult>
+    <UnitTestResult executionId="c5fbc544-6d1c-4bd1-8348-e289aea89ca0" testId="66f4e4cf-c578-2bd4-dd5a-c87171e27e1e" testName="TestEvaluateSentenceUndefined" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5fbc544-6d1c-4bd1-8348-e289aea89ca0">
+    </UnitTestResult>
+    <UnitTestResult executionId="06896b33-c2f5-4fe7-93b3-5a8e844cab62" testId="8a25d26e-5280-d8aa-6f18-7f957f2ab71c" testName="TestClone" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06896b33-c2f5-4fe7-93b3-5a8e844cab62">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc9080f5-c76a-4e5a-91a1-37c59d8ae7fa" testId="3a8d2e06-c5f9-8c8a-8960-014186b38c77" testName="TestConvertToCNF" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc9080f5-c76a-4e5a-91a1-37c59d8ae7fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="45972e49-f051-45e8-bdd5-9de37cbbc97b" testId="f8066f99-2db1-e9eb-981b-f8a2819a17df" testName="TestToReadableString" computerName="USSLCL00134" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45972e49-f051-45e8-bdd5-9de37cbbc97b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

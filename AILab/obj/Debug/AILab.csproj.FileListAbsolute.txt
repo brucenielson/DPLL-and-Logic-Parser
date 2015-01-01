@@ -1,0 +1,9 @@
+C:\AI Labs\AILab\AILab\bin\Debug\AILab.dll
+C:\AI Labs\AILab\AILab\bin\Debug\AILab.pdb
+C:\AI Labs\AILab\AILab\obj\Debug\ResolveAssemblyReference.cache
+C:\AI Labs\AILab\AILab\obj\Debug\AILab.dll
+C:\AI Labs\AILab\AILab\obj\Debug\AILab.pdb
+C:\Programming\AILab\AILab\bin\Debug\AILab.dll
+C:\Programming\AILab\AILab\bin\Debug\AILab.pdb
+C:\Programming\AILab\AILab\obj\Debug\AILab.dll
+C:\Programming\AILab\AILab\obj\Debug\AILab.pdb
